@@ -1,0 +1,25 @@
+
+body{
+background-image:url("images_flowers.png.jpg");
+background-repeat:no-repeat;
+}
+
+h1{
+font-family: 'Indie Flower', cursive;
+font-family: 'Comforter', sans-serif;
+text-align:center;
+font-weight:bold;
+color:pink;
+}
+
+p{
+font-family: 'Bebas Neue', sans-serif;
+    font-weight:normal;
+    text-align:center;
+}
+
+
+
+.index.links{
+    text-align:center;
+}
