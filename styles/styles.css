@@ -1,11 +1,10 @@
 
 
-h1{
+h1 {
 font-family: 'Indie Flower', cursive;
 font-family: 'Comforter', sans-serif;
 text-align:center;
 font-weight:bold;
-color:pink;
 }
 
 p{
@@ -20,6 +19,33 @@ background:#f5f2fe;
   text-align: center;
 }
 
+.contact{
+    font-family: 'Indie Flower', cursive;
+font-family: 'Comforter', sans-serif;
+    font-weight:normal;
+}
+
+.passions,
+.contact,
+.about,
+.index{
+    color:gold;
+}
+
+.passion-link,
+.contact-link,
+.about-link,
+.about-home,
+.about-passions,
+.email
+{
+     color: #f5f2fe;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
 
 
 .index.links{
@@ -31,3 +57,4 @@ background:#f5f2fe;
   text-decoration: none;
   text-transform: capitalize;
 }
+
