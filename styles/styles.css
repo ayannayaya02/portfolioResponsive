@@ -19,6 +19,19 @@ background:#f5f2fe;
   text-align: center;
 }
 
+
+@media (max-width:576px){
+  .index-links a{
+    justify-content: space-evenly;
+    margin:5px 5px 5px;
+    display:flex;
+  }
+
+  .container p{
+display:block;
+  }
+}
+
 .contact{
     font-family: 'Indie Flower', cursive;
 font-family: 'Comforter', sans-serif;
@@ -32,7 +45,9 @@ font-family: 'Comforter', sans-serif;
     color:gold;
 }
 
-.passion-link,
+@media (max-width:576px)
+{
+  .passion-link,
 .contact-link,
 .weather-app,
 .about-link,
@@ -44,10 +59,28 @@ font-family: 'Comforter', sans-serif;
   border: 1px solid;
   border-radius: 4px;
   padding: 20px 15px;
+  margin:5px;
+  margin-top:5px;
   text-decoration: none;
   text-transform: capitalize;
 }
+}
 
+.passion-link,
+.contact-link,
+.weather-app,
+.about-link,
+.about-home,
+.about-passions,
+.email
+{
+     color: #f5f2fe;
+  border: 1px solid;
+  border-radius: 4px;
+  padding:20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
 
 .index.links{
     text-align:center;
@@ -58,4 +91,5 @@ font-family: 'Comforter', sans-serif;
   text-decoration: none;
   text-transform: capitalize;
 }
+
 
