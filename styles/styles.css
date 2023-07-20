@@ -27,6 +27,10 @@ background:#f5f2fe;
     display:flex;
   }
 
+  .col-2{
+    flex:0 auto;
+  }
+
   .container p{
 display:block;
   }
