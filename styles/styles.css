@@ -1,99 +1,95 @@
-
-
 h1 {
-font-family: 'Indie Flower', cursive;
-font-family: 'Comforter', sans-serif;
-text-align:center;
-font-weight:bold;
+  font-family: "Indie Flower", cursive;
+  font-family: "Comforter", sans-serif;
+  text-align: center;
+  font-weight: bold;
 }
 
-p{
-font-family: 'Bebas Neue', sans-serif;
-background:#f5f2fe;
-    font-weight:normal;
-    text-align:center;
-     padding: 20px;
+p {
+  font-family: "Bebas Neue", sans-serif;
+  background: #f5f2fe;
+  font-weight: normal;
+  text-align: center;
+  padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
 }
 
-
-@media (max-width:576px){
-  .index-links a{
+@media (max-width: 576px) {
+  .index-links a {
     justify-content: space-evenly;
-    margin:5px 5px 5px;
-    display:flex;
+    margin: 5px 5px 5px;
+    display: flex;
   }
 
-  .col-2{
-    flex:0 auto;
+  .col-2 {
+    flex: 0 auto;
   }
 
-  .container p{
-display:block;
+  .container p {
+    display: block;
   }
 }
 
-.contact{
-    font-family: 'Indie Flower', cursive;
-font-family: 'Comforter', sans-serif;
-    font-weight:normal;
+.contact {
+  font-family: "Indie Flower", cursive;
+  font-family: "Comforter", sans-serif;
+  font-weight: normal;
 }
 
 .passions,
 .contact,
 .about,
-.index{
-    color:gold;
+.index {
+  color: gold;
 }
 
-@media (max-width:576px)
-{
+@media (max-width: 576px) {
   .passion-link,
-.contact-link,
-.weather-app,
-.about-link,
-.about-home,
-.about-passions,
-.email
-{
-     color: #f5f2fe;
-  border: 1px solid;
-  border-radius: 4px;
-  padding: 20px 15px;
-  margin:5px;
-  margin-top:5px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
+  .clone-link,
+  .contact-link,
+  .weather-app,
+  .about-link,
+  .about-home,
+  .about-passions,
+  .email {
+    color: #f5f2fe;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 20px 15px;
+    margin: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
 }
 
 .passion-link,
+.clone-link,
 .contact-link,
 .weather-app,
 .about-link,
 .about-home,
 .about-passions,
-.email
-{
-     color: #f5f2fe;
+.email {
+  color: #f5f2fe;
   border: 1px solid;
+  display: flex;
+  margin-bottom: 15px;
   border-radius: 4px;
-  padding:20px;
+  padding: 20px;
   text-decoration: none;
   text-transform: capitalize;
 }
 
-.index.links{
-    text-align:center;
-    color:pink;
+.index.links {
+  text-align: center;
+  color: pink;
   border: 1px solid;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
-
-
