@@ -41,6 +41,7 @@ p {
 
 .passions,
 .contact,
+.figma-header,
 .about,
 .index {
   color: gold;
@@ -68,6 +69,8 @@ p {
 
 .passion-link,
 .clone-link,
+.figma,
+.simple,
 .contact-link,
 .weather-app,
 .about-link,
